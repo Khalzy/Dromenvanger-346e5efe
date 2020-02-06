@@ -14,19 +14,19 @@ for ($i = 1; $i <= $amount; $i++) {
     echo "Hoeveel dromen ga je opgeven?" . PHP_EOL;
     $amountD = readline("");
 
-    $data = array();
+    $catcher = array();
     for ($f = 1; $f <= $amountD; $f++) {
 
         echo "Wat is jouw droom?" . PHP_EOL;
         $wdream = readline("");
 
-        array_push($data, $wdream);
+        array_push($catcher, $wdream);
     }
-    $dreamcatcher[$name] = $data;
+    $dreamcatcher[$name] = $catcher;
 }
 
 foreach ($dreamcatcher as $name => $wdream) {
-    foreach ($wdream as $data) {
-        echo "$name heeft als droom: $data" . PHP_EOL;
+    foreach ($wdream as $catcher) {
+        echo "$name heeft als droom: $catcher" . PHP_EOL;
     }
 }
