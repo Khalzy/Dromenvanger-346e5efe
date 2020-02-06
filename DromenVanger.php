@@ -30,3 +30,5 @@ foreach ($dreamcatcher as $name => $wdream) {
         echo "$name heeft als droom: $catcher" . PHP_EOL;
     }
 }
+
+///ssssssssaaaaaaa
